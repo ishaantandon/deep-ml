@@ -12,8 +12,6 @@ def reshape_matrix(a, new_shape) -> torch.Tensor:
     # Convert to tensor and reshape
     a_t = torch.as_tensor(a, dtype=torch.float)
     # Your implementation here
-    result = []
-    j = 0
     return a_t.reshape(new_shape)
         
     pass
